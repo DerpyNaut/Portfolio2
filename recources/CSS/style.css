@@ -1,0 +1,13 @@
+.b {
+  border: 1px solid green;
+}
+
+.main-container {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+
+img {
+  width: 100%;
+}
