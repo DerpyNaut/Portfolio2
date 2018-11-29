@@ -1,6 +1,7 @@
 body {
   background-color: rgb(245, 245, 245);
   font-family: Helvetica;
+  line-height: 1.5;
 }
 
 .main-container {
@@ -36,9 +37,17 @@ p, span{
 
 header h1 {
   margin: 1.5rem 0;
+  font-size: 1.6rem;
 }
 
-nav h2 {
+/*nav h2 {
+  background-color: white;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+}*/
+
+nav h2 a {
+  display: block;
   background-color: white;
   padding: 0.8rem;
   margin-bottom: 0.5rem;
@@ -49,7 +58,6 @@ section {
 }
 
 /* --- MAIN SECTION --- */
-
 main h2, footer h3 {
   padding: 3rem 0 3rem 0;
 }
@@ -85,4 +93,9 @@ address div {
 
 .backToTop span {
   color: black;
+}
+
+/*--- PSEUDO-CLASS ---*/
+a:hover {
+  color: skyblue;
 }
