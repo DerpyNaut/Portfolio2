@@ -18,6 +18,12 @@ img {
   font-weight: bold;
 }
 
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 /*--- HEADER ---*/
 section img {
@@ -98,4 +104,28 @@ address div {
 /*--- PSEUDO-CLASS ---*/
 a:hover {
   color: skyblue;
+}
+
+/*--- MEDIA ---*/
+@media only screen and (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+  nav h2 {
+    margin: 0 0.5rem;
+  }
+  nav h2 a {
+    background-color: rgb(245, 245, 245);
+  }
+
+  section p {
+    text-align: left;
+  }
+
+  section img {
+    float: right;
+    width: 40%;
+    margin-left: 1rem;
+  }
 }
