@@ -1,5 +1,6 @@
-.b {
-  border: 1px solid green;
+body {
+  background-color: rgb(245, 245, 245);
+  font-family: Helvetica;
 }
 
 .main-container {
@@ -8,6 +9,41 @@
   margin: auto;
 }
 
+main {
+  background-color: white;
+}
+
 img {
   width: 100%;
+}
+
+section img {
+  width: 70%;
+  margin-bottom: 1.2rem;
+}
+
+h1, h2, h3, a, .backToTop {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header h1 {
+  margin: 1.5rem 0;
+}
+
+nav h2 {
+  background-color: white;
+  padding: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  margin: 2.5rem 0;
+}
+
+/* --- MAIN SECTION --- */
+
+main h2 {
+  margin: 3rem;
 }
