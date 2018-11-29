@@ -13,13 +13,14 @@
 
     <!-- HEADER -->
     <header>
-      <h1>Student Name</h1>
-      <nav>
-        <h2><a href="#">HOME</a></h2>
-        <h2><a href="#portfolio">PORTFOLIO</a></h2>
-        <h2><a href="#contact">CONTACT</a></h2>
-      </nav>
-
+      <div class="navigationBar">
+        <h1>DERPY</h1>
+        <nav>
+          <h2><a href="#top">HOME</a></h2>
+          <h2><a href="#portfolio">PORTFOLIO</a></h2>
+          <h2><a href="#contact">CONTACT</a></h2>
+        </nav>
+      </div>
       <!-- PROFILE -->
       <section class="clearfix">
         <img src="recources/images/responsive-layout-profile.png" alt="Avatar picture">
@@ -32,6 +33,7 @@
       <!-- PORTFOLIO -->
       <h2 id="portfolio">PORTFOLIO</h2>
 
+      <div class="portfolio-container">
       <figure>
         <img src="recources/images/portfolio-1.png" alt="Portfolio image">
         <figcaption>
@@ -80,7 +82,8 @@
         </figcaption>
       </figure>
       </div>
-    </main>
+    </div>
+  </main>
 
     <!-- FOOTER...duh -->
     <footer class="main-container">
@@ -94,9 +97,17 @@
         <span>Email:</span> <span class="bold">email@yoursite.com</span>
       </div>
       </address>
-      <div class="backToTop">
+      <div class="backToTop footerMobile">
         <span>Student name</span>
         <span><a href="#top">Back to top</a></span>
+      </div>
+      <div class="backToTop footerNav">
+        <span>Derpy</span>
+        <nav>
+          <span><a href="#top">HOME</a></span>
+          <span><a href="#portfolio">PORTFOLIO</a></span>
+          <span><a href="#contact">CONTACT</a></span>
+        </nav>
       </div>
     </footer>
   </body>

@@ -100,12 +100,16 @@ address div {
   color: black;
 }
 
+.footerNav {
+  display: none;
+}
+
 /*--- PSEUDO-CLASS ---*/
 a:hover {
   color: skyblue;
 }
 
-/*--- MEDIA ---*/
+/*--- MEDIA 768px ---*/
 @media only screen and (min-width: 768px) {
   nav {
     display: flex;
@@ -126,5 +130,51 @@ a:hover {
     float: right;
     width: 40%;
     margin-left: 1rem;
+  }
+
+  figure {
+    width: 49%;
+  }
+
+  footer p {
+    margin: auto;
+    width: 75%;
+  }
+
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .footerNav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footerMobile {
+    display: none;
+  }
+
+  footer nav span {
+    margin-left: 2rem;
+  }
+}
+
+/*--- MEDIA 768px ---*/
+@media only screen and (min-width: 1024px) {
+  .navigationBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  main {
+    width: 95%;
+    margin: auto;
+  }
+
+  figure {
+    width: 32%;
   }
 }
