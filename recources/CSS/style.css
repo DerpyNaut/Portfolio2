@@ -28,6 +28,10 @@ h1, h2, h3, a, .backToTop {
   font-weight: bold;
 }
 
+p {
+  color: rgb(120, 120, 120);
+}
+
 header h1 {
   margin: 1.5rem 0;
 }
@@ -45,5 +49,13 @@ section {
 /* --- MAIN SECTION --- */
 
 main h2 {
-  margin: 3rem;
+  padding: 3rem 0 2rem 0;
+}
+
+figcaption p {
+  margin: 1rem 0;
+}
+
+figure img {
+  margin: 1rem 0;
 }
