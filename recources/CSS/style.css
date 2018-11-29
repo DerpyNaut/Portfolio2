@@ -9,14 +9,16 @@ body {
   margin: auto;
 }
 
-main {
-  background-color: white;
-}
-
 img {
   width: 100%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
+
+/*--- HEADER ---*/
 section img {
   width: 70%;
   margin-bottom: 1.2rem;
@@ -28,7 +30,7 @@ h1, h2, h3, a, .backToTop {
   font-weight: bold;
 }
 
-p {
+p, span{
   color: rgb(120, 120, 120);
 }
 
@@ -48,14 +50,39 @@ section {
 
 /* --- MAIN SECTION --- */
 
-main h2 {
-  padding: 3rem 0 2rem 0;
+main h2, footer h3 {
+  padding: 3rem 0 3rem 0;
 }
 
 figcaption p {
-  margin: 1rem 0;
+  padding: 1rem 0 2rem 0;
 }
 
 figure img {
-  margin: 1rem 0;
+  margin-bottom: 1rem;
+}
+
+main {
+  background-color: white;
+}
+
+/*--- FOOTER ---*/
+footer p {
+  padding-bottom: 1rem;
+}
+
+address div {
+  padding: 0.5rem 0;
+}
+
+.backToTop {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgb(210, 210, 210);
+  margin-top: 2rem;
+  padding: 1.5rem 0;
+}
+
+.backToTop span {
+  color: black;
 }
