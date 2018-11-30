@@ -77,6 +77,8 @@ figcaption p {
 
 figure:hover {
   background-color: rgb(230, 230, 230);
+
+  transition: background-color 0.4s;
 }
 
 figure img {
@@ -143,7 +145,7 @@ a:hover {
 
   figure {
     width: 49%;
-    margin: 0 auto;
+    margin: 0.5rem auto;
   }
 
   footer p {
